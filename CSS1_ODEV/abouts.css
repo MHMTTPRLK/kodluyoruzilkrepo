@@ -1,0 +1,27 @@
+.h1_center{
+    text-align: center;
+    color: red;
+}
+.top-menu{
+    list-style: none;
+    text-align: center;
+}
+.top-menu li{
+    color: purple;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+
+}
+.text_center{
+    color: purple;
+    text-align: center;
+}
+h3{
+    margin-left: 10px;
+    color:rgba(218, 175, 34, 0.849);
+}
+p{
+    margin-left: 10px;
+}

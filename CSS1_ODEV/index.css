@@ -1,0 +1,37 @@
+.h1_center{
+    text-align: center;
+    color: red;
+}
+.top-menu{
+    list-style: none;
+    text-align: center;
+}
+.top-menu li{
+    color: purple;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+
+}
+.text_center{
+    color: purple;
+    text-align: center;
+}
+p{
+    text-align: center; 
+}
+
+.list p{
+    font-size: 18px;
+    color:rgba(218, 175, 34, 0.849);
+}
+
+.list ul  {
+    text-align: center;
+}
+
+.list ul li {
+    list-style-position: inside;
+}
+
