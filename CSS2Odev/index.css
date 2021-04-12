@@ -1,0 +1,94 @@
+.leftBar{
+   
+    width:200px;
+    margin-left:auto;
+}
+.leftBar>ul>li{
+    list-style:none;
+    display:inline;
+    padding:1px;
+}
+.ppImage{
+    width:30px;
+    height:30px;
+    border-radius: 45px;
+}   
+.google{
+    margin-top: 150px;
+    
+    text-align:center;
+  
+}
+.googleImage{
+    height:150px;
+  
+}
+.search-area{
+ 
+
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 50px !important;
+  text-align:center;
+  
+}
+.search{
+ 
+  margin-left:520px;
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  appearance: textfield;
+  cursor: text;
+  width:450px;
+  border-radius: 40px;
+
+}
+
+.btns{
+
+    text-align:center;
+   background-color: transparent;
+}
+.btn{
+    padding:10px;
+    font-family: Arial;
+     border:0px;
+    font-size:18px;
+}
+.info{
+    text-align:center;
+}
+.footer{
+    margin-top:80px;
+ background-color: #F2F2F2;
+
+}
+.header-footer>p
+{
+ padding: 15px 30px;
+ font-size: 15px;
+ color: rgba(0,0,0,.54);
+}
+.last-footer{
+
+}
+.right-footer>a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}
