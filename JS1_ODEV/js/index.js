@@ -2,7 +2,7 @@ let isim = prompt("Lütfen Adınızı Girermisiniz ");
 var myName = document.getElementById('myName');
 myName.innerHTML = isim;
 
-setInterval(showTime,100);
+setInterval(showTime,1000);
 function showTime() {
 
     var date    =  new Date();
