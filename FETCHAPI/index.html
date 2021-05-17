@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="app.js"></script>
+</body>
+<ul class="list-group" id="userList">
+
+</ul>
+<script>
+    let userListDOM = document.querySelector("#userList");
+
+    fetch("https://jsonplaceholder.typicode.com/posts").then(
+        response => response.json()
+    ).then(responseJson => {
+        responseJson.forEach(item => {
+            let liDOM = document.createElement("li");
+            liDOM.innerHTML = item.title
+            userListDOM.appendChild(liDOM)
+
+        })
+    })
+</script>
+
+</html>
